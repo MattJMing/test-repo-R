@@ -1,0 +1,21 @@
+---
+title: "Test RMarkdown"
+author: "Matt M"
+date: "1/25/2022"
+output: html_document
+---
+
+Here is some code
+
+```{r}
+x <- 1:10
+mean(x)
+print(x)
+```
+
+Here is some more code
+
+```{r}
+y <- 10:1
+plot(x,y)
+```
